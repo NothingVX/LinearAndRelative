@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LinearAndActivity2"
+    android:padding="15dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="40dp"
+        android:textColor="@android:color/black"
+        android:text="Krisna Riyadi"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textSize="20dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kampus"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/kiri"
+            android:layout_width="85dp"
+            android:layout_height="110dp"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@mipmap/foto" />
+
+        <ImageView
+            android:id="@+id/tengah"
+            android:layout_width="85dp"
+            android:layout_height="110dp"
+            android:gravity="center"
+            android:layout_marginLeft="145dp"
+            android:background="@mipmap/foto" />
+
+        <ImageView
+            android:id="@+id/kanan"
+            android:layout_width="85dp"
+            android:layout_height="110dp"
+            android:gravity="center"
+            android:layout_marginLeft="270dp"
+            android:background="@mipmap/foto" />
+
+        <Button
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tengah"
+            android:layout_marginTop="10dp"
+            android:text="KEMBALI" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tengah"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="200dp"
+            android:text="NEXT" />
+    </RelativeLayout>
+
+</LinearLayout>
