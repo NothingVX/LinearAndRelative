@@ -1,81 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:stretchColumns="1"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TableRow
-        android:background="#22ff">
-        <TextView
-            android:layout_column="1"
-            android:text="Open..."
-            android:padding="3dip" />
-        <TextView
-            android:text="Ctrl-O"
-            android:gravity="right"
-            android:padding="3dip" />
-    </TableRow>
+    <Button
+        android:id="@+id/btn_move_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pindah Activity"
+        android:layout_marginBottom="@dimen/activity_vertical_margin" />
 
-    <TableRow
-        android:background="#22ff">
-        <TextView
-            android:layout_column="1"
-            android:text="Save..."
-            android:padding="3dip" />
-        <TextView
-            android:text="Ctrl-S"
-            android:gravity="right"
-            android:padding="3dip" />
-    </TableRow>
+    <Button
+        android:id="@+id/btn_move_with_data_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pindah Activity Dengan Data"
+        android:layout_marginBottom="@dimen/activity_vertical_margin" />
 
-    <TableRow
-        android:background="#22ff">
-        <TextView
-            android:layout_column="1"
-            android:text="Save As..."
-            android:padding="3dip" />
-        <TextView
-            android:text="Ctrl-Shift-S"
-            android:gravity="right"
-            android:padding="3dip" />
-    </TableRow>
+    <Button
+        android:id="@+id/btn_move_activity_object"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pindah Activity dengan Object"
+        android:layout_marginBottom="@dimen/activity_vertical_margin" />
 
-    <View
-        android:layout_height="2dip"
-        android:background="#FF909090" />
-    <TableRow android:background="#ffff00">
-        <TextView
-            android:text="X"
-            android:padding="3dip" />
-        <TextView
-            android:text="Import..."
-            android:padding="3dip" />
-    </TableRow>
+    <Button
+        android:id="@+id/btn_dial_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dial_number"
+        android:layout_marginBottom="@dimen/activity_vertical_margin" />
 
-    <TableRow android:background="#ffff00">
-        <TextView
-            android:text="X"
-            android:padding="3dip" />
-        <TextView
-            android:text="Export..."
-            android:padding="3dip" />
-        <TextView
-            android:text="Ctrl-E"
-            android:gravity="right"
-            android:padding="3dip" />
-    </TableRow>
+    <Button
+        android:id="@+id/btn_move_for_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/move_with_result"
+        android:layout_marginBottom="@dimen/activity_vertical_margin" />
 
-    <View
-        android:layout_height="2dip"
-        android:background="#FF909090" />
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/result_from_activity"
+        android:textSize="24sp" />
 
-    <TableRow android:background="#aaf">
-        <TextView
-            android:layout_column="1"
-            android:text="Quit"
-            android:padding="3dip" />
-    </TableRow>
-</TableLayout>
+</LinearLayout>
