@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:rowCount="4"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="A"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:paddingVertical="30dp"
+        android:paddingHorizontal="30dp"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="B"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:paddingVertical="30dp"
+        android:paddingHorizontal="30dp"/>
+    <TextView
+        android:id="@+id/text3"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="C"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:paddingVertical="30dp"
+        android:paddingHorizontal="30dp" />
+    <TextView
+        android:id="@+id/text4"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="D"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:paddingVertical="30dp"
+        android:paddingHorizontal="30dp" />
+    <TextView
+        android:id="@+id/text5"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="E"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:paddingVertical="30dp"
+        android:paddingHorizontal="30dp" />
+    <TextView
+        android:id="@+id/text6"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="F"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:paddingVertical="30dp"
+        android:paddingHorizontal="30dp" />
+    <TextView
+        android:id="@+id/text7"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="G"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:paddingVertical="30dp"
+        android:paddingHorizontal="30dp" />
+    <TextView
+        android:id="@+id/text8"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="H"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:paddingVertical="30dp"
+        android:paddingHorizontal="30dp" />
+    <TextView
+        android:id="@+id/text9"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="I"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:paddingVertical="30dp"
+        android:paddingHorizontal="30dp" />
+    <TextView
+        android:id="@+id/text10"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="J"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:paddingVertical="30dp"
+        android:paddingHorizontal="30dp" />
+    <TextView
+        android:id="@+id/text11"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="K"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:paddingVertical="30dp"
+        android:paddingHorizontal="30dp" />
+    <TextView
+        android:id="@+id/text12"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="L"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:paddingVertical="30dp"
+        android:paddingHorizontal="30dp" />
+
+</GridLayout>
